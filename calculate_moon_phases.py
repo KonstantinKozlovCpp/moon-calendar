@@ -30,7 +30,7 @@ def get_moon_phases(year):
 moon_phases = get_moon_phases(2025)
 
 # Сохраняем данные в JSON-файл в папке web-app
-with open('web-app/moon_phases.json', 'w') as f:
+with open('moon_phases.json', 'w') as f:
     json.dump(moon_phases, f, indent=4)
 
 print("Файл moon_phases.json успешно создан!")
